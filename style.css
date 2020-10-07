@@ -164,8 +164,20 @@
     font-size: 2vh;
     height: 4vh;
 }
+.leftButton, .rightButton{
+    position: relative;
+    top:48%;
+    font-size: 13vh;
+    color:grey;
+
+}
+.leftButton{
+    left: 1%;
+    
+}
 .rightButton{
     float: right;
+    right: 1%;
 }
 #text_description{
     display: flex;
